@@ -1,0 +1,19 @@
+package rectangles;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Finding_Rectangles {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number of Rows or Columns : ");
+		int R=s.nextInt();
+		s.close();
+		int V=(((R*(R+1))/2));
+		double W=Math.pow(V, 2);
+		System.out.println("The number of Rectangles in that 'Big' rectangle is: "+W);
+		
+				
+	}
+
+}
